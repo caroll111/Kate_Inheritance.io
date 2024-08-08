@@ -27,6 +27,12 @@
       .welcome {
         text-align: center;
       }
+      /* CSS for responsive image */
+      .welcome img {
+        width: 100%; /* Image takes up the full width of the container */
+        height: auto; /* Maintains the aspect ratio */
+        max-width: 100vw; /* Ensures the image doesn't exceed the viewport width */
+      }
     </style>
   </head>
   <body>
@@ -44,13 +50,11 @@
         <h2>Welcome</h2>
         <p>
           This website provides important information about the inheritance for
-          Kate Jefferson
+          Kate Jefferson.
         </p>
-          <img
+        <img
           src="child_photo.jpg"
-          alt="[Child's Name]"
-          width="300"
-          height="300"
+          alt="Photo of Kate Jefferson as a child"
         />
       </div>
     </main>
